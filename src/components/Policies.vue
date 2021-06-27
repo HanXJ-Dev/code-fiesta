@@ -113,13 +113,14 @@
         padding-left: 3px;
     }
     .menu{
+
         display:flex;
     }
     .menu-items{
           
         margin-left: 0;
         width: 100vw;
-        background-color: var(--red);
+        background-color: var(--white);
         overflow: auto;
         white-space: nowrap;
         text-align:center;
@@ -128,7 +129,7 @@
     
     .menu-items a{
         display: inline-block;
-        color: var(--white);
+        color: var(--red);
         text-align: center;
         height: var(--horizontal-menu-height);;
         padding: 14px;
@@ -187,13 +188,13 @@
     #left:active,
     #right:active{
         cursor:pointer;
-        background-color: var(--white);
-        color: black;
+        background-color: var(--red);
+        color: var(--white);
     }
 
     .menu-items .active {
-        background-color: var(--white);
-        color: var(--red);
+        background-color: var(--red);
+        color: var(--white);
     }
     .content-overall{
         position: fixed;
@@ -206,7 +207,7 @@
         }
         .menu-items{
             margin-left: 60px;
-            width: calc(100vw-120px);
+            width: calc(100vw - 120px);
         }
 
     }
