@@ -344,7 +344,7 @@
                         },
                         "1005": {
                             "date": "3 March 2017",
-                            "Policy": "Pasir Ris food centre unveiled, opening more than 100 hawker stalls."
+                            "policy": "Pasir Ris food centre unveiled, opening more than 100 hawker stalls."
                         }
                     },
                     "general":{
@@ -642,7 +642,9 @@
                  
                     let year = policydeets.date.slice(-4)
                     if (parseInt(year) >= parseInt(this.from) && parseInt(year) <= parseInt(this.to)){
-                        if (this.search.length){
+                        if (this.search.length > 0){
+                            console.log(key, idx)
+                            console.log(policydeets.policy)
                             let s = policydeets.policy
                             let punctuationless = s.replace(/[.,/#!$%^&*;:{}=\-_`~()]/g,"")
                             let finalString = punctuationless.replace(/\s{2,}/g," ")
