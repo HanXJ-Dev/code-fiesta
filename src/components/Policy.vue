@@ -643,12 +643,10 @@
                     let year = policydeets.date.slice(-4)
                     if (parseInt(year) >= parseInt(this.from) && parseInt(year) <= parseInt(this.to)){
                         if (this.search.length > 0){
-                            console.log(key, idx)
-                            console.log(policydeets.policy)
                             let s = policydeets.policy
                             let punctuationless = s.replace(/[.,/#!$%^&*;:{}=\-_`~()]/g,"")
                             let finalString = punctuationless.replace(/\s{2,}/g," ")
-                            if (finalString.toLowerCase().split(' ').includes(this.search))
+                            if (finalString.toLowerCase().split(' ').includes(this.search.toLowerCase()))
 
                                 this.filteredPolicies[key][idx] = policydeets
                             }else{
