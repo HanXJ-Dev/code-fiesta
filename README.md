@@ -1,5 +1,5 @@
-# code-fiesta
-Team BBG's Code-fiesta submission
+# Team BBG's Code-fiesta submission
+
 
 ### How to run?
 
