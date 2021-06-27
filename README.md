@@ -3,7 +3,7 @@ Team BBG's Code-fiesta submission
 
 ### How to run?
 
-Open your terminal, enter this directory and run the command "serve -dist" or "npm run serve" or visit the site on codefiesta.hanxingjian.com
+Open your terminal, enter this directory and run the command "serve -dist" or "npm run serve" or visit the site at codefiesta.hanxingjian.com
 
 
 ### Write up
